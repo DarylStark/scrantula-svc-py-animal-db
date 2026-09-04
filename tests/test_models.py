@@ -2,7 +2,7 @@
 
 from pytest import mark
 
-from animal_db.models import Taxonomy, Subject
+from animal_db.models import Subject, Taxonomy
 
 
 @mark.parametrize(
