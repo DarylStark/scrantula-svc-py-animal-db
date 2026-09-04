@@ -16,6 +16,7 @@ jobs:
       - uses: actions/checkout@v7
       - name: Type testing
         run: |
+          uv sync
           uv run --frozen ty check .
       - uses: astral-sh/ruff-action@v4.1.0
       - uses: astral-sh/ruff-action@v4.1.0
